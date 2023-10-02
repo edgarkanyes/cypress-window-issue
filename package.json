@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:verify": "cypress verify",
+    "cypress:version": "cypress version",
+    "cypress:info": "cypress info",
+    "cypress:cache:list": "cypress cache list"
+  },
+  "dependencies": {
+    "nuxt": "^3.7.4"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "cypress": "^13.3.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  }
+}
